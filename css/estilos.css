@@ -1,0 +1,398 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image:
+	url("../Otras_Imagenes/naruto_vs_pain.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #55BAFF/*#FFAE31 NARANJA*/
+}
+
+.nav-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	background-color: #86CEFF;
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: FF0000;
+}
+
+.nav-header a img{
+	width: 125px;
+	margin-left: 20px;
+}
+
+ul{
+	list-style: none;
+}
+
+ul #personajes{
+	list-style: square;
+}
+
+.menu li a{
+	background-color: #86CEFF;
+	color: #000000;
+	text-decoration: none;
+	padding: 20px 20px;
+	display: block;
+}
+
+.menu li a:hover{
+	color: #86CEFF;
+	background-color: #000000;
+}
+
+.menu #personajes a:hover{
+	color: #000000;
+	background-color: #86CEFF;
+}
+
+.menu #personajes ul li a:hover{
+	background-color: #000000;
+	color: #86CEFF;
+}
+
+.menu > li{
+	float: left;
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.menu li:hover > ul{
+	display: block;
+}
+
+h1{
+	padding-top: 2%;
+	padding-left: 1%;
+	font-size: 60px;
+	font-family: "Bebas_Neue", Arial, sans-serif;
+}
+
+h2{
+	font-size: 35px;	
+}
+
+.h1_index{
+	text-align: center;
+}
+
+.titulo{
+	margin-top: 2%;
+	padding-top: 2%;
+	text-align: center;
+	font-family: "Libre Bodoni", Arial, sans-serif;
+}
+
+.sinopsis{
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+}
+
+#parrafo_sinopsis{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	margin-top: 1%;
+	text-align: justify;
+	font-size: 22px;
+	font-weight: 500;
+	font-family: "Roboto", Arial, sans-serif;
+}
+
+.pos_marco{
+	padding: 2.5% 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.marco{
+	width: 1000px;
+	height: 500px;
+	background-color: rgba(85, 186, 255, 0.7); /*#FFD18A; NARANJA ;#55BAFF;*/
+	border-radius: 10px;
+	border: 3px;
+	border-style: solid;
+	border-color: FF0000;
+	/*opacity: 80%;*/
+}
+
+.abajo img{
+	width: 600px;
+	margin: 20px 10px;
+	border-radius: 10px;
+	border: 2px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+#img_izquierda{
+	display: inline;
+	margin-left: 1% ;
+}
+
+#img_medio{
+	display: inline;
+}
+
+#img_derecha{
+	display: inline;
+}
+
+#mas_imagenes{
+	font-family: "Bebas Neue", Arial, sans-serif;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-size: 20px;
+	margin: 10px 30px;
+	padding: 10px;
+	border: 3px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+#mas_imagenes:hover{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#face{
+	max-width: 4.25rem;
+}
+
+#insta{
+	max-width: 4rem;
+}
+
+.borde{
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: FF0000;
+	margin-top: 3%;
+	display: flex;
+	justify-content:center;
+}
+
+.texto_footer{
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	font-family: "Libre Bodoni", Arial, sans-serif;
+	background-color: #86CEFF; 
+	/*#FFE4B9; NARANJA */
+}
+
+.texto_footer p{
+	margin: 1% 0;
+}
+
+/*---------------------------------------------ESTILOS PERSONAJES----------------------------------------------*/
+
+#izquierda{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+#izquierda p, #izquierda h3{
+	width: 800px;
+	margin-top: 1%;
+	margin-left: 5%;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 500px;
+	font-family: "Roboto", Arial, sans-serif;
+}
+
+#izquierda h3{
+	margin-top: 5%;
+}
+
+#derecha{
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: -2%;
+}
+
+#derecha img{
+	width: 300px;
+}
+
+.marco_personaje{
+	width: 1200px;
+	height: 625px;
+	background-color: #55BAFF;
+	border-radius: 10px;
+	border: 3px;
+	border-style: solid;
+	border-color: FF0000;
+	background-color: rgba(85, 186, 255, 0.7); /*#FFD18A; NARANJA ;#55BAFF;*/
+}
+
+.marco_pain{
+	width: 1200px;
+	height: 750px;
+	background-color: #55BAFF;
+	border-radius: 10px;
+	border: 3px;
+	border-style: solid;
+	border-color: FF0000;
+	background-color: rgba(85, 186, 255, 0.7);
+}
+
+#titulo_pj{
+	margin-top: 1%;
+}
+
+/*---------------------------------------------ESTILOS OST----------------------------------------------*/
+
+.banda_sonora{
+	padding-left: 2%;
+	font-family: "Oswald", sans-serif;
+}
+
+.videos{
+}
+
+.videos iframe{
+	width: 854px;
+	height: 480px;
+}
+
+.videos h3{
+	font-size: 60px;
+}
+
+.videos_izquierda{
+	display: inline-block;
+	padding-top: 4%;
+	padding-left: 2%;
+}
+
+.videos_derecha{
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.videos h3{
+	display: flex;
+	/*justify-content: center;*/
+	text-decoration: underline;
+	color: #FFFFFF;
+	text-shadow: 3px 1px #000000;
+}
+
+.videos p{
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	color: #FFFFFF;
+	text-shadow: 3px 1px #000000;
+}
+
+/*---------------------------------------------ESTILOS CRITICAS----------------------------------------------*/
+
+.h1_critica{
+	text-align: center;
+}
+
+.marco_critica{
+	width: 1600px;
+	height: 670px;
+	background-color: #55BAFF;
+	border-radius: 8px;
+	border: 3px;
+	border-style: solid;
+	border-color: FF0000;
+	background-color: rgba(85, 186, 255, 0.7); /*#FFD18A; NARANJA ;#55BAFF;*/
+	text-align: justify;
+
+}
+
+.marco_critica p{
+	margin: 1%;
+	font-size: 20px;
+}
+
+.critica_personal{
+	font-size: 30px;
+	margin-top: 2%;
+	margin-left: 1%;
+	text-decoration: underline;
+}
+
+.fuente{
+	display: inline;
+	color: #000000;
+	font-size: 25px;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	padding: 3px;
+	border: 3px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #000000;
+	background-color: #86CEFF;
+}
+
+.fuente a{
+	color: #000000;
+}
+
+.fuente:hover{
+	padding: 3px;
+	color: #55BAFF;
+	background-color: #000000;
+}
+
+.fuente a:hover{
+	color: #55BAFF;
+}
+
+/*  font-family: "Bebas Neue", Arial, sans-serif;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-size: 20px;
+	margin: 10px 30px;
+	padding: 10px;
+	border: 3px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;*/
+
+/*---------------------------------------------ESTILOS GALERIA----------------------------------------------*/
+
+.galeria{
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+.galeria a img{
+	margin-left: 1%;
+	margin-top: 1%;
+	border-radius: 5%;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+#galeria_titulo{
+	text-align: center;
+}
