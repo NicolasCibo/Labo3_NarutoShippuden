@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="icon" href="Otras_Imagenes/naruto.ico">
+	<title> Quiz - Saga Pain </title>
+</head>
+
+<body>
+	<header>
+		<div class="menu_superior">
+			<nav class="nav-header">
+				<a href="index.html"><img src="Otras_Imagenes/naruto_logo.png" alt="naruto_logo"></a>
+
+				<ul class="menu">
+					<li id="personajes"><a href="#">Personajes</a>
+						<ul class="menu_personajes">
+							<li><a href="naruto_sennin_mode.html">Naruto (Sennin Mode)</a></li>
+							<li><a href="pain.html">Pain</a></li>
+						</ul>
+					</li>
+					<li id="galeria"><a href="galeria.html">Galeria</a></li>
+					<li id="ost"><a href="ost.html">OST</a></li>
+					<li id="criticas"><a href="criticas.html">Criticas</a></li>
+					<li id="trivia"><a href="trivia.html">Quiz</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- P1: Que tecnica utiliza Naruto al final del capitulo? 
+		 R1: Rasengan
+		 R2: Oodama Rasengan
+		 R3: Rasen Shuriken
+
+		 P2: En este episodio reviven a uno de los Pain, cual es?
+		 R1: Camino Asura
+		 R2: Camino Nakara
+		 R3: Camino Preta
+
+		 P3: El Pain del Camino Animal puede invocar animales, estos animales, tienen Rinnengan?
+		 R1:SI
+		 R2:NO
+		
+		 P4: Cual es el Camino principal de Pain?
+		 R1: Camino Deva
+		 R2: Camino Preta
+		 R3: Camino Humano
+		-->
+
+	<section class="quiz">
+		<h1>Quiz</h1>
+		<div class="cuadro">
+			<form action="#" method="get">
+				<h3>Que tecnica utiliza Naruto al final del capitulo?</h3>
+				<label>
+					<input type="radio" value="1" name="P1" required> Rasengan
+				</label>
+				<label>
+					<input type="radio" value="2" name="P1"> Oodama Rasengan
+				</label>
+				<label>
+					<input type="radio" value="3" name="P1"> Rasen Shuriken
+				</label>
+
+				<h3>En este episodio reviven a uno de los Pain, cual es?</h3>
+				<label>
+					<input type="radio" value="1" name="P2" required> Camino Asura
+				</label>
+				<label>
+					<input type="radio" value="2" name="P2"> Camino Nakara
+				</label>
+				<label>
+					<input type="radio" value="3" name="P2"> Camino Preta
+				</label>
+
+				<h3>El Pain del Camino Animal puede invocar animales, estos animales, tienen Rinnengan?</h3>
+				<label>
+					<input type="radio" value="1" name="P3" required> SI
+				</label>
+				<label>
+					<input type="radio" value="2" name="P3"> NO
+				</label>
+
+				<h3>Cual es el Camino principal de Pain?</h3>
+				<label>
+					<input type="radio" value="1" name="P4" required> Camino Deva
+				</label>
+				<label>
+					<input type="radio" value="2" name="P4"> Camino Preta
+				</label>
+				<label>
+					<input type="radio" value="3" name="P4"> Camino Humano
+				</label>
+
+				<h3 id="complete">Complete con sus datos para enviarlo:</h3>
+
+				<div class="nombre">
+					<p>Nombre:</p>
+					<input type="text" name="nombre" id="nombre" class="datos" required>
+				</div>
+
+				<div class="apellido">
+					<p>Apellido:</p>
+					<input type="text" name="apellido" id="apellido" class="datos" required>
+				</div>
+
+				<div class="enviar_">
+					<input type="submit" name="enviar" id="enviar">
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="borde">
+			<a href="#"><img id="insta" src="Otras_Imagenes/instagram_logo.png" alt="Instagram Logo"></a>
+			<a href="#"><img id="face" src="Otras_Imagenes/facebook_logo.png" alt="Facebook Logo"></a>
+		</div>
+		
+		<div class="texto_footer">
+			<p>Hecho por Nicolas Javier Cibo</p>
+		</div>
+	</footer>
+</body>
+</html>

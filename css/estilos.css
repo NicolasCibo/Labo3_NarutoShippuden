@@ -396,3 +396,93 @@ a{
 #galeria_titulo{
 	text-align: center;
 }
+
+/*---------------------------------------------ESTILOS TRIVIA----------------------------------------------*/
+
+.quiz h1{
+	display: flex;
+	justify-content: center;
+	font-family: "libre bodoni", sans-serif;
+	font-size: 100px;
+	margin-bottom: 2%;
+	text-decoration: underline;
+}
+
+.quiz form{
+	display: inline-block;
+	border: 6px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #00C5FF;
+	background-color: rgba(85, 186, 255, 0.7);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.quiz .cuadro{
+	display: flex;
+	justify-content: center;
+}
+
+.cuadro h3{
+	margin-top: 2%;
+	font-size: 30px;
+	font-family: "Times New Roman", sans-serif;
+}
+
+.cuadro label{
+	display: inline-block;
+	padding-right: 75%;
+	font-size: 25px;
+	font-family: "Roboto", sans-serif;
+}
+
+.cuadro h3, p, label{
+	margin-left: 1.5%;
+}
+
+.cuadro .datos{
+	font-size: 20px;
+	margin-left: 1.5%;
+	margin-bottom: 1%;
+}
+
+.cuadro .enviar_{
+	display: flex;
+	margin-left: 1.5%;
+	margin-bottom: 2%;
+}
+
+.cuadro #enviar{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.cuadro #complete{
+	margin-top: 3%;
+}
+
+.cuadro p{
+	font-size: 20px;
+	font-family: "Arial", sans-serif;
+}
+
+.cuadro .nombre{
+	display: flex;
+	margin-top: 1%;
+}
+
+.cuadro .nombre input{
+	display: flex;
+	margin-left: 0.5%;
+}
+
+.cuadro .apellido{
+	display: flex;
+}
+
+.cuadro .apellido input{
+	display: flex;
+	margin-left: 0.5%;
+}
