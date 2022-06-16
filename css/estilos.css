@@ -9,7 +9,13 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: #55BAFF/*#FFAE31 NARANJA*/
+	background-color: #55BAFF;/*#FFAE31 NARANJA*/
+}
+
+section{
+	min-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .nav-header{
@@ -21,6 +27,10 @@ body{
 	border-bottom: 3px;
 	border-bottom-style: solid;
 	border-bottom-color: FF0000;
+}
+
+.icon{
+	display: none; 
 }
 
 .nav-header a img{
@@ -135,6 +145,12 @@ a{
 	/*opacity: 80%;*/
 }
 
+.abajo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .abajo img{
 	width: 600px;
 	margin: 20px 10px;
@@ -155,6 +171,11 @@ a{
 
 #img_derecha{
 	display: inline;
+}
+
+section .mas_imagenes{
+	display: flex;
+	justify-content: center;
 }
 
 #mas_imagenes{
@@ -485,4 +506,67 @@ a{
 .cuadro .apellido input{
 	display: flex;
 	margin-left: 0.5%;
+}
+
+/*------------MEDIA QUERIES------------------*/
+
+@media(max-width: 480px){
+section{
+	min-width: 480px;
+}
+
+.nav-header{
+	width: 160%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.h1_index{
+	margin-left: 6rem;
+	width: 35rem;
+}
+
+.marco{
+	width: auto;
+	height: auto;
+}
+
+.abajo{
+	display: inline-block;
+}
+
+#img_izquierda{
+	display: none;
+}
+
+#img_derecha{
+	display: none;
+}
+
+
+/*MENU HAMBURGESA----------------------*/
+nav ul{
+	display: none;
+}
+
+.icon{
+	display: block;
+	width: 5%;
+	margin-right: 3%;
+}
+
+nav.responsive ul{
+	display: block;
+}
+
+nav.responsive ul li{
+	display: block;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+nav.responsive ul li a{
+	padding-right: 0;
+}
+/*MENU HAMBURGESA-------------------------*/
 }
