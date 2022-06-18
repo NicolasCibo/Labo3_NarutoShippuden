@@ -13,7 +13,7 @@ body{
 }
 
 section{
-	min-width: 1300px;
+	max-width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -142,7 +142,6 @@ a{
 	border: 3px;
 	border-style: solid;
 	border-color: FF0000;
-	/*opacity: 80%;*/
 }
 
 .abajo{
@@ -291,9 +290,6 @@ section .mas_imagenes{
 	font-family: "Oswald", sans-serif;
 }
 
-.videos{
-}
-
 .videos iframe{
 	width: 854px;
 	height: 480px;
@@ -338,7 +334,7 @@ section .mas_imagenes{
 
 .marco_critica{
 	width: 1600px;
-	height: 670px;
+	height: 600px;
 	background-color: #55BAFF;
 	border-radius: 8px;
 	border: 3px;
@@ -350,8 +346,14 @@ section .mas_imagenes{
 }
 
 .marco_critica p{
-	margin: 1%;
+	margin: 0.5% 1%;
 	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+}
+
+.parte1{
+	margin-top: 1.5%;
+	margin-bottom: 2%;
 }
 
 .critica_personal{
@@ -367,7 +369,7 @@ section .mas_imagenes{
 	font-size: 25px;
 	margin-bottom: 1%;
 	margin-left: 1%;
-	padding: 3px;
+	padding: 2px;
 	border: 3px;
 	border-style: solid;
 	border-radius: 5px;
@@ -521,17 +523,35 @@ section{
 }
 
 .h1_index{
-	margin-left: 6rem;
-	width: 35rem;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 2.5rem;
+	align-items: center;
 }
 
 .marco{
-	width: auto;
-	height: auto;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 850px;
+}
+
+#parrafo_sinopsis{
+	width: 90%;
+	margin-top: 2%;
+}
+
+.titulo{
+	font-size: 40px;
 }
 
 .abajo{
 	display: inline-block;
+}
+
+.abajo img{
+	width: 400px;
+	margin-left: 8%;
 }
 
 #img_izquierda{
@@ -542,6 +562,96 @@ section{
 	display: none;
 }
 
+#mas_imagenes{
+	align-items: center;
+}
+
+/*NARUTO (SENNIN MODE)----------------------*/
+
+.marco_personaje{
+	width: 350px;
+	height: 1200px;
+}
+
+#titulo_pj{
+	font-size: 30px;
+	display: flex;
+	margin-left: 4%;
+}
+
+#izquierda{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+#izquierda p, #izquierda h3{
+	width: 300px;
+}
+
+#izquierda h3{
+	margin-top: 5%;
+}
+
+#derecha{
+	display: flex;
+}
+
+#derecha img{
+	width: 180px;
+}
+
+/*PAIN----------------------*/
+
+.marco_pain{
+	width: 350px;
+	height: 1450px;
+}
+
+/*OST----------------------*/
+
+.videos iframe{
+	width: 427px;
+	height: 240px;
+}
+
+.videos h3{
+	font-size: 40px;
+}
+
+.videos_izquierda{
+	padding-left: 5%;
+}
+
+/*GALERIA----------------------*/
+
+#galeria_titulo{
+	font-size: 40px;
+}
+
+/*CRITICAS----------------------*/
+
+.marco_critica{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1275px;
+}
+
+.marco_critica p{
+	font-size: 20px;
+}
+
+.parte1, .parte2, .parte3{
+	margin-top: 7%;
+}
+
+/*TRIVIA----------------------*/
+.cuadro{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /*MENU HAMBURGESA----------------------*/
 nav ul{
@@ -567,5 +677,5 @@ nav.responsive ul li{
 nav.responsive ul li a{
 	padding-right: 0;
 }
-/*MENU HAMBURGESA-------------------------*/
+
 }
