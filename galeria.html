@@ -8,14 +8,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni&family=Roboto&display=swap" rel="stylesheet">
 	<link rel="icon" href="Otras_Imagenes/naruto.ico">
 	<link href="css/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title> Galeria de Imagenes - Episodio 163 </title>
 </head>
 
 <body>
 	<header>
 		<div class="menu_superior">
-			<nav class="nav-header">
+			<nav class="nav-header" id="navi">
 				<a href="index.html"><img src="Otras_Imagenes/naruto_logo.png" alt="naruto_logo"></a>
+
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 
 				<ul class="menu">
 					<li id="personajes"><a href="#">Personajes</a>
@@ -29,8 +32,6 @@
 					<li id="criticas"><a href="criticas.html">Criticas</a></li>
 					<li id="trivia"><a href="trivia.html">Quiz</a></li>
 				</ul>
-
-				<img class="icon" src="Otras_Imagenes/menu_hamburguesa.png" alt="Menu">
 			</nav>
 		</div>
 	</header>
@@ -78,5 +79,6 @@
 
 	<script src="js/lightbox-plus-jquery.js"></script>
 	<script src="js/lightbox.js"></script>
+	<script src="js/hamburguesa.js"></script>
 </body>
 </html>
