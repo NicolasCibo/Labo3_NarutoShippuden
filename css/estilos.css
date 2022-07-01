@@ -285,14 +285,47 @@ section .mas_imagenes{
 
 /*---------------------------------------------ESTILOS OST----------------------------------------------*/
 
-.banda_sonora{
+#h1_ost{
+	text-align: center;
 	padding-left: 2%;
 	font-family: "Oswald", sans-serif;
 }
 
+.banda_sonora{
+	text-decoration: underline;
+	font-family: "Oswald", sans-serif;
+}
+
+#texto_ost{
+	text-decoration: none;
+	font-family: "Libre Bodoni", sans-serif;
+}
+
+.banda_sonora a{
+	color: #000000;
+}
+
+.marco_ost{
+	display: inline-block;
+	padding: 1%;
+	border: 3px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #000000;
+	background-color: rgba(85, 186, 255, 0.7);
+}
+
+.videos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .videos iframe{
-	width: 854px;
-	height: 480px;
+	width: 597.8px;
+	height: 336px;
 }
 
 .videos h3{
@@ -307,7 +340,8 @@ section .mas_imagenes{
 
 .videos_derecha{
 	display: inline-block;
-	margin-left: 5%;
+	margin-top: 4.25%;
+	margin-left: 4%;
 }
 
 .videos h3{
@@ -333,8 +367,7 @@ section .mas_imagenes{
 }
 
 .marco_critica{
-	width: 1600px;
-	height: 600px;
+	width: 90%;
 	background-color: #55BAFF;
 	border-radius: 8px;
 	border: 3px;
@@ -351,16 +384,17 @@ section .mas_imagenes{
 	font-family: "Roboto", sans-serif;
 }
 
-.parte1{
+.parte1, .parte2, .parte3{
 	margin-top: 1.5%;
 	margin-bottom: 2%;
 }
 
-.critica_personal{
+.usuario{
 	font-size: 30px;
 	margin-top: 2%;
 	margin-left: 1%;
 	text-decoration: underline;
+	font-family: "Libre Bodoni", sans-serif;
 }
 
 .fuente{
@@ -599,6 +633,28 @@ section{
 
 /*OST----------------------*/
 
+.marco_ost{
+	width: 90%;
+}
+
+#h1_ost{
+	padding: 0;
+	margin: 0 auto;
+}
+
+.banda_sonora{
+	margin-left: 2%;
+	font-size: 27px;
+}
+
+#texto_ost{
+	margin-top: 1%;
+}
+
+.videos{
+	display: block;
+}
+
 .videos iframe{
 	width: 427px;
 	height: 240px;
@@ -620,15 +676,29 @@ section{
 
 /*CRITICAS----------------------*/
 
+.h1_critica{
+	font-size: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .marco_critica{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1275px;
+	height: 1400px;
 }
 
 .marco_critica p{
+	width: 90%;
 	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.marco_critica h3{
+	margin-left: 5%;
+	margin-right: auto;
 }
 
 .parte1, .parte2, .parte3{
